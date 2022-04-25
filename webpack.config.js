@@ -1,12 +1,12 @@
 /**webpack配置文件 */
 
 const { resolve } = require("path");
-const TerserPlugin  = require('terser-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 module.exports = {
   entry: {
-    character:'./src/character/_entry.js',
-    card:'./src/card/_entry.js',
-    mode:'./src/mode/_entry.js',
+    character: './src/character/_entry.js',
+    card: './src/card/_entry.js',
+    mode: './src/mode/_entry.js',
   },
   output: {
     filename: '[name].js',
@@ -17,13 +17,6 @@ module.exports = {
       {
         test: /\.tsx?$/,
         use: [
-          // {
-          //   loader: 'babel-loader',
-          //   options: {
-          //     presets: ['@babel/preset-env'],
-          //     plugins: ['@babel/transform-runtime']
-          //   }
-          // },
           'ts-loader'
         ],
         exclude: /(node_modules|bower_components)/

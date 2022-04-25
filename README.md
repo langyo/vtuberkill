@@ -1,9 +1,19 @@
-项目代码来源无名杀: https://github.com/libccy/noname
+# VTuber杀
 
-vercel托管地址 : https://vtuberkill.vercel.app
+项目代码来源[无名杀](https://github.com/libccy/noname)
 
-api文档生成: 
+[vercel托管地址](https://vtuberkill.vercel.app)
+
+构建编译指令：
+
+```shell
+yarn
+npm run build
 ```
+
+api文档生成:
+
+```shell
 npm install -g jsdoc
 npm install clean-jsdoc-theme
 jsdoc -c jsdoc.json
