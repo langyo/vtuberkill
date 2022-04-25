@@ -11,7 +11,7 @@ declare global {
     type Gender = 'female' | 'male' | 'none' | 'unknown'
     type cardProperties = 'name' | 'nature' | 'suit' | 'color'
     type Key = string | Array<any>
-    type MarkKey = string | ((storage: any, player: PlayerModel, skill: string?) => any)
+    type MarkKey = string | ((storage: any, player: PlayerModel, skill?: string) => any)
     type Num = string | number
     type Keyword = string | Array<string>
     type AObject = { [key: string]: Array<string> }
