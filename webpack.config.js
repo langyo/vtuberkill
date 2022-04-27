@@ -1,7 +1,6 @@
-/**webpack配置文件 */
-
 const { resolve } = require("path");
 const TerserPlugin = require('terser-webpack-plugin');
+
 module.exports = {
   entry: {
     character: './src/character/_entry.js',

@@ -1,4 +1,4 @@
-import './Beginner'
+import './entry'
 import './clubs'
 import './emperor'
 import './hololive'
